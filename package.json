@@ -1,0 +1,23 @@
+{
+  "name": "com.akashkapoordev.noodlelimbs",
+  "version": "1.0.0",
+  "displayName": "Noodle Limbs",
+  "description": "Rubber-hose cartoon limbs for Unity 2D: one dynamic, ink-outlined tube mesh per limb, bent along a curve between two joints. Lit by URP 2D lights. Extracted from GangsterCoop.",
+  "unity": "6000.0",
+  "keywords": ["2d", "urp", "rubber-hose", "procedural", "animation", "mesh"],
+  "author": {
+    "name": "Akash Kapoor",
+    "url": "https://akashkapoordev.com"
+  },
+  "dependencies": {
+    "com.unity.render-pipelines.universal": "17.0.3"
+  },
+  "samples": [
+    {
+      "displayName": "Waving Arm",
+      "description": "One script that builds a shoulder, a hand and a limb in code and swings it.",
+      "path": "Samples~/WavingArm"
+    }
+  ],
+  "license": "MIT"
+}
